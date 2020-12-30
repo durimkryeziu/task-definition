@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: task-definition
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:h2:tcp://localhost:9092/./tasks
+    username: dk
+    password: pwd
+
+logging:
+  level:
+    root: info
